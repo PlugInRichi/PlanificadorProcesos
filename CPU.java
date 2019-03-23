@@ -3,6 +3,7 @@ import java.io.*;
 import java.util.*;
 
 public class CPU{
+	int ptueba;
 	public boolean ejecutaProceso(ColaRAM ram, int quantum)
 	{
             Proceso procesoEnEjecucion = new Proceso();
